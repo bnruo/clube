@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+        background: #A04631; /* Old browsers */
+    background: -moz-linear-gradient(top, #A04631 0%, #DE6943 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A04631), color-stop(100%,#DE6943)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #A04631 0%,#DE6943 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #A04631 0%,#DE6943 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #A04631 0%,#DE6943 100%); /* IE10+ */
+    background: linear-gradient(top, #A04631 0%,#DE6943 100%); /* W3C */
+
+}
+
+
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #DE6943;
+}
+
+
+    
+.papai{
+        height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto 1fr;
+
+    grid-gap: 10px;
+    max-width: 1050px;
+    margin: 30px;
+}
+
+.titulos {
+    grid-column-start: 1;
+grid-column-end: 3;
+place-self: center;
+margin: 10px;
+
+}
+
+.textinho {
+grid-column-start: 1;
+grid-column-end: 2;
+margin: 10px;
+    font-family: 'Epilogue', sans-serif;
+        font-size:1em;
+        font-weight: 400;
+        color: #F6B864;
+}
+
+.paragrafo {
+    padding: 1  0px;
+}
+
+.imagem {
+grid-column-start: 2;
+grid-column-end: 3;
+margin: 10px;
+justify-self: end;
+z-index: -101;
+
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.arrow{
+    display: flex;
+  width: 0; 
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+  
+  border-left: 130px solid #1A0D09;
+    align-items: center;
+    justify-content: flex-start;
+    color: #DE6943;
+    font-family: 'Epilogue', sans-serif;
+        font-size:0.9em;
+        font-weight: 700;
+        justify-self: center;
+
+
+  
+}
+
+.arrow:hover {
+      border-left: 130px solid #A04631;
+      color: #1A0D09;
+
+}
+
+.arrow:hover a {
+      color: #1A0D09;
+
+}
+
+.setinha {
+    text-align: left;
+    left: -125px;
+    position: relative;
+    margin: 0px;
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.marcas {
+
+}
+
+.sticky {
+    position: fixed;
+    bottom: 30px;
+    left: 5vw;
+    z-index: -99;
+        grid-column-start: 1;
+grid-column-end: 3;
+    max-width: 70vw; 
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red {
+    background: #A04631; /* Old browsers */
+    background: -moz-linear-gradient(top, #A04631 0%, #DE6943 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A04631), color-stop(100%,#DE6943)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #A04631 0%,#DE6943 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #A04631 0%,#DE6943 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #A04631 0%,#DE6943 100%); /* IE10+ */
+    background: linear-gradient(top, #A04631 0%,#DE6943 100%); /* W3C */
+}
