@@ -186,8 +186,7 @@ footer {
     bottom: 30px;
     left: 5vw;
     z-index: -99;
-        grid-column-start: 1;
-grid-column-end: 3;
+
     max-width: 70vw; 
 }
 
@@ -210,12 +209,9 @@ grid-column-end: 3;
 
         .sticky {
     position: absolute;
-    top: 300px;
-    bottom: auto;
+    bottom: 200px;
     left: auto;
     z-index: -99;
-        grid-column-start: 1;
-grid-column-end: 3;
     max-width: 90vw; 
 }
 
