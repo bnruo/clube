@@ -91,6 +91,7 @@ margin: 10px;
         font-size:1em;
         font-weight: 400;
         color: #F6B864;
+        line-height: 140%;
 }
 
 .paragrafo {
@@ -136,6 +137,7 @@ img {
         font-size:0.9em;
         font-weight: 700;
         justify-self: center;
+         line-height: 105%;
 
 
   
