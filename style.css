@@ -239,15 +239,15 @@ margin: 5px 0 5px 15px;
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 20px;
-  border-top: 160px solid transparent;
-  border-bottom: 160px solid transparent;
+  border-top: 125px solid transparent;
+  border-bottom: 125px solid transparent;
   
-  border-left: 200px solid #1A0D09;
+  border-left: 210px solid #1A0D09;
     align-items: center;
     justify-content: flex-start;
     color: #DE6943;
     font-family: 'Epilogue', sans-serif;
-        font-size:1.1em;
+        font-size:1em;
         font-weight: 700;
         justify-self: center;
          line-height: 105%;
@@ -258,7 +258,7 @@ margin: 5px 0 5px 15px;
 
 .setinha {
     text-align: left;
-    left: -195px;
+    left: -205px;
     position: relative;
     margin: 0px;
 }
