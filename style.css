@@ -210,6 +210,7 @@ grid-column-end: 3;
 
         .sticky {
     position: absolute;
+    top: 300px;
     bottom: auto;
     left: auto;
     z-index: -99;
@@ -222,7 +223,7 @@ grid-column-end: 3;
         margin: 5px 5px 5px 5px;
 }
 .textinho {
-margin: 5px;
+margin: 5px 0 5px 15px;
     font-family: 'Epilogue', sans-serif;
         font-size:1.5em;
         font-weight: 400;
